@@ -1,0 +1,12 @@
+Source: ros-humble-ugv-sdk
+Section: misc
+Priority: optional
+Maintainer: Ruixiang Du <ruixiang.du@westonrobot.com>
+Build-Depends: debhelper (>= 9.0.0), libasio-dev, ros-humble-ament-cmake, ros-humble-ros-workspace
+Homepage: https://www.westonrobot.com/
+Standards-Version: 3.9.2
+
+Package: ros-humble-ugv-sdk
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libasio-dev, ros-humble-ros-workspace
+Description: Weston Robot Platform SDK
