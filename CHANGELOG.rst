@@ -2,6 +2,12 @@
 Changelog for package ugv_sdk
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.1 (2024-04-03)
+------------------
+* new version
+* asio is full depend
+* Contributors: Marc Hanheide
+
 1.0.0 (2024-04-03)
 ------------------
 * swapped catking for ament
